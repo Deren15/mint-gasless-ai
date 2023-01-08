@@ -127,6 +127,7 @@ function App() {
 						Next
 					</button>
           {loading && <p>Loading...</p>}
+	   {error && <p>Model is loading, please try again after some timee...</p>}
 				</div>
 				{imageBlob && (
 					<div className="flex flex-col gap-4 items-center justify-center">
